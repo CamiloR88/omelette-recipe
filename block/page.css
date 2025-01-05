@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Outfit";
+    src: url("./outfit/static/Outfit-Light.ttf") format(woff);
+}
+.page{
+    width: 736px;
+    padding: 40px;
+    grid-row: 2;
+    margin: auto auto;
+    background-color: #fff;
+    border-radius: 30px;
+
+
+}

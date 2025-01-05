@@ -1,0 +1,22 @@
+.recipe__instructions{
+  padding:32px 0;
+  border-bottom: 1px solid;
+  border-color: hsl(30, 18%, 87%);
+   color:  hsl(30, 10%, 34%);
+}
+.recipe__instructions-title{
+  color: hsl(14, 45%, 36%);
+  margin-top: 0;
+}
+.recipe__instructions-list{
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.recipe__instructions-list li::marker{
+  color:hsl(14, 45%, 36%);
+
+}
+.recipe__instructions-list span{
+  color:hsl(24, 5%, 18%);
+}

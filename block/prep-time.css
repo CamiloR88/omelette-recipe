@@ -1,0 +1,26 @@
+.recipe__time{
+  background-color: hsl(330, 100%, 98%);
+  color: hsl(332, 51%, 32%);
+  width: 688px;
+  padding: 24px;
+  border-radius: 12px;
+}
+.recipe__time-title{
+  padding: 0;
+  margin-top: 0;
+}
+.recipe__time-list{
+   display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.recipe__time-list li::marker {
+  color: hsl(332, 51%, 32%);
+}
+.recipe__time-list li{
+
+  color:hsl(30, 10%, 34%);
+}
+.recipe__time-list li span{color: hsl(24, 5%, 18%);
+
+}

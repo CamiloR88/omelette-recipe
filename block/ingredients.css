@@ -1,0 +1,19 @@
+.recipe__ingredients {
+  width: 736px;
+  border-bottom: 1px solid;
+  border-color: hsl(30, 18%, 87%);
+  padding: 32px 0;
+  color:  hsl(30, 10%, 34%);
+}
+.recipe__ingredients-title{
+  color: hsl(14, 45%, 36%);
+  margin-top: 0;
+}
+.recipe__ingredients-list{
+   display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.recipe__ingredients-list li::marker{
+color: hsl(14, 45%, 36%);
+}

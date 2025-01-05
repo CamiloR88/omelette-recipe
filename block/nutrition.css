@@ -1,0 +1,30 @@
+.recipe__nutrition{
+  padding-top: 32px ;
+   color:  hsl(30, 10%, 34%);
+}
+.recipe__nutrition-title{
+  color: hsl(14, 45%, 36%);
+  margin-top: 0;
+}
+.recipe__nutrition-table{
+  display: flex;
+  flex-direction: column;
+}
+
+.recipe__nutrition-component{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: baseline;
+border-bottom: 1px solid;
+border-color: hsl(30, 18%, 87%);
+
+}
+.recipe__nutrition-component h3{
+  margin:0;
+  width: 288px;
+}
+.recipe__nutrition-component p{
+  color: hsl(14, 45%, 36%);
+  width: 288px;
+}
